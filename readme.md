@@ -21,7 +21,7 @@ This API calculates GPA (Grade Point Average) based on a given list of course gr
 
 ## GPA Calculation Details
 The GPA is calculated using the following steps:
-    1. Input Validation:
+1. Input Validation:
         - Invalid courses (negative credit hours or grades not in the grading scale) are ignored.
         - If no valid courses are provided, the GPA is 0.0 and the letter grade is "F".
 
