@@ -50,8 +50,7 @@ The GPA is calculated using the following steps:
 
 5. Enter your grades data in the specified format
     Example:
-    ```
-{
+```{
     "grades": [
         [2, "B-"],
         [8, "B-"],
@@ -62,8 +61,8 @@ The GPA is calculated using the following steps:
         [2, "A+"]
     ]
 }
+```
 
-    ```
 6. Click Send to calculate the GPA.
 
 
