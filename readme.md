@@ -50,7 +50,8 @@ The GPA is calculated using the following steps:
 
 5. Enter your grades data in the specified format
     Example:
-```{
+```
+{
     "grades": [
         [2, "B-"],
         [8, "B-"],
@@ -95,4 +96,4 @@ The API will respond with the calculated GPA and letter grade:
 5. Run the Flask application: ```python gpa_calculator_api.py```
 
 
-# The API will be accessible at http://localhost:5000/calculate_gpa.
+## The API will be accessible at http://localhost:5000/calculate_gpa.
