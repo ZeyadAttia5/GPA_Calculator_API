@@ -22,21 +22,21 @@ This API calculates GPA (Grade Point Average) based on a given list of course gr
 ## GPA Calculation Details
 The GPA is calculated using the following steps:
 1. Input Validation:
-        - Invalid courses (negative credit hours or grades not in the grading scale) are ignored.
-        - If no valid courses are provided, the GPA is 0.0 and the letter grade is "F".
+    - Invalid courses (negative credit hours or grades not in the grading scale) are ignored.
+    - If no valid courses are provided, the GPA is 0.0 and the letter grade is "F".
 
-    2. Grade Points Mapping:
-        - Each valid grade is mapped to a corresponding grade point according
-          to the German grading scale.
+2. Grade Points Mapping:
+    - Each valid grade is mapped to a corresponding grade point according
+      to the German grading scale.
 
-    3. GPA Calculation:
-        - Total grade points are calculated by multiplying grade points with credit hours for each valid course.
-        - Total credit hours are the sum of credit hours for all valid courses.
-        - GPA is calculated by dividing total grade points by total credit hours, rounded to two decimal places.
+3. GPA Calculation:
+    - Total grade points are calculated by multiplying grade points with credit hours for each valid course.
+    - Total credit hours are the sum of credit hours for all valid courses.
+    - GPA is calculated by dividing total grade points by total credit hours, rounded to two decimal places.
 
-    4. Letter Grade Mapping:
-        - GPA is mapped to the nearest letter grade in the German grading scale.
-        - Letter grade is returned in parentheses with the calculated GPA 
+4. Letter Grade Mapping:
+    - GPA is mapped to the nearest letter grade in the German grading scale.
+    - Letter grade is returned in parentheses with the calculated GPA 
 
 ## Usage Instructions (Postman)
 
