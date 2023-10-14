@@ -51,13 +51,17 @@ The GPA is calculated using the following steps:
 5. Enter your grades data in the specified format
     Example:
     ```
-    {
-        "grades": [
-            [6, "A"],
-            [4, "B+"],
-            [3, "A+"]
-        ]
-    }
+{
+    "grades": [
+        [2, "B-"],
+        [8, "B-"],
+        [6, "A"],
+        [4, "C"],
+        [3, "B"],
+        [5, "B"],
+        [2, "A+"]
+    ]
+}
 
     ```
 6. Click Send to calculate the GPA.
@@ -65,9 +69,10 @@ The GPA is calculated using the following steps:
 
 ## Response
 The API will respond with the calculated GPA and letter grade:
-```{
-    "gpa": 1.77,
-    "letter_grade": "(B+)"
+```
+{
+    "gpa": 1.95,
+    "letter_grade": "B"
 }
 ```
 
